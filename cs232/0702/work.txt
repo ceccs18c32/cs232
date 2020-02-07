@@ -1,0 +1,835 @@
+Script started on 2020-02-07 09:43:30+0530
+]0;s4c1@CC2-27: ~/ceccs18c32[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32[00m$ mkdir 0702
+]0;s4c1@CC2-27: ~/ceccs18c32[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32[00m$ mkdir cs232
+]0;s4c1@CC2-27: ~/ceccs18c32[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32[00m$ pdftotxt[K[Kext lay[K[K[K-[K[K-[K -lau[Kypouy[K[K[K[Koutresult result[C[C[C[C[C[C_s1.pdf
+I/O Error: Couldn't open file 'result_s1.pdf': No such file or directory.
+]0;s4c1@CC2-27: ~/ceccs18c32[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32[00m$ pdftotext -layout result_s1.pdf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Pmkdir cs232[1P0702[2Pifconfigssh cs18c00@192.168.0.30[3Pftp ask@192.168.0.30[4Pping 192.168.0.30ftp ask@192.168.0.30[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd cs232
+]0;s4c1@CC2-27: ~/ceccs18c32/cs232[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232[00m$ cd0702 0702[C[C[C[C
+]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ cd 0702cs232pdftotext -layout result_s1.pdf
+]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ pdftotext -layout result_s1.pdf[1P.pdf2.pdf[C[C[C[C
+]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ grep --nogro[K[K[K-group-separator-A3 [C[1@ [C[1@ [C[C[1P[1@a[C[1P[1@A[C[1P[C[C[C " C H N ! * [1P [1P 1 8 C S " [C r e  [A]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs  u l t _ s 1 . t x t . [1P [C > r e s u l t [C 1 [C[C[C[C[C[C[1P[1@_[1@ [1P[C. t x t 
+]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ grep --no-group-separator -A3 "CHN18CS" resuult_s1.txt >result_1.txt [1P[1@2[C[C[C[C[C[C[1P[1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ tr  '\n' ' '<[K[K[K[K[K[K[K[K[K[K[K[K[Ktr  '\n' ' '<result_1.txt>[K > res ult__[Kcs1
+]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ sed 's/\t//g' result_cs2[K1>[K > resu lt[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cu ltc1[K[K_c1
+]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ awk '{[K{$1=$1;print}' result.[K[Kt_c[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksed 's/\t//g' result_cs1 > resullt_c1[A]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ tr  '\n' ' '<result_1.txt > result_cs1[A]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ sed 's/\t//g' result_cs1 > resul[2Pt_c1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C. > result_c1[A]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cx > result_c1[A]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct > result_c1[A]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C > res[1Pult_c1[A]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C > resu[1Plt_c1[A]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct > result_c1[A]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cx > result_c1[A]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct > result_c1[A]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csed 's/\t//g' result_cs1.txt > rresult_c1.txt
+sed: can't read result_cs1.txt: No such file or directory
+]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ sed 's/\t//g' result_cs1.txt > result_c1.txt[8P > result_c1tr  '\n' ' '<result_1.txt > result_cs1.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep --no-group-separator -A3 "CHN18CS" result_s2.txt >result_2.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Ptr  '\n' ' '<result_1.txt > result_cs1.txt
+]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ tr  '\n' ' '<result_1.txt > result_cs1.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csed 's/\t//g' result_cs1.txt > result_c1.txt
+]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ gedit code.py
+]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [p[K[Kpythj[Kon code.py
+'/home/s4c1/ceccs18c32/cs232/0702/result_1.txt' 
+Traceback (most recent call last):
+  File "code.py", line 32, in <module>
+    studdic[i.split()[0]]=cgpacal(i.split()[1:]) 
+  File "code.py", line 24, in cgpacal
+    return("{:.2f}".format(point/float(len(grades))))
+ZeroDivisionError: float division by zero
+]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ python code.py
+'/home/s4c1/ceccs18c32/cs232/0702/result_2.txt' 
+Traceback (most recent call last):
+  File "code.py", line 32, in <module>
+    studdic[i.split()[0]]=cgpacal(i.split()[1:]) 
+  File "code.py", line 24, in cgpacal
+    return("{:.2f}".format(point/float(len(grades))))
+ZeroDivisionError: float division by zero
+]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ python code.py
+'/home/s4c1/ceccs18c32/cs232/0702/result_1.txt' 
+Traceback (most recent call last):
+  File "code.py", line 32, in <module>
+    studdic[i.split()[0]]=cgpacal(i.split()[1:]) 
+  File "code.py", line 24, in cgpacal
+    return("{:.2f}".format(point/float(len(grades))))
+ZeroDivisionError: float division by zero
+]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ python code.py[1Pgedit[C[C[C[C[C[C[C[Csed 's/\t//g' result_cs1.txt > result_c1.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Ptr  '\n' ' '<result_1.txt > result_cs1.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csed 's/\t//g' result_cs1.txt > result_c1.txt[8P > result_c1tr  '\n' ' '<result_1.txt > result_cs1grep --no-group-separator -A3 "CHN18CS" result_s2.txt >result_2.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[30Ptr  '\n' ' '<result_1.txt > result_cs1grep --no-group-separator -A3 "CHN18CS" result_s2.txt >result_2.txt [1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[35@--no-group-separator -A3 "CHN18CS" result_s1.txt >result_1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[35Presult_s2.txt >result_2[C[C[C[C[C[35@--no-group-separator -A3 "CHN18CS" result_s1.txt >result_1[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ grep "CHN18CS" result_s1.txt >result_1.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython code.py[K
+'/home/s4c1/ceccs18c32/cs232/0702/result_1.txt' 
+CHN18CS001
+-1
+
+CHN18CS002
+-4
+
+CHN18CS003
+9.25
+
+CHN18CS004
+8.75
+
+CHN18CS005
+7.81
+
+CHN18CS006
+-3
+
+CHN18CS007
+8.38
+
+CHN18CS008
+7.69
+
+CHN18CS009
+8.62
+
+CHN18CS010
+8.94
+
+CHN18CS011
+-1
+
+CHN18CS012
+7.86
+
+CHN18CS013
+-2
+
+CHN18CS014
+-3
+
+CHN18CS015
+-4
+
+CHN18CS016
+8.56
+
+CHN18CS017
+8.57
+
+CHN18CS018
+9.25
+
+CHN18CS019
+-1
+
+CHN18CS020
+9.00
+
+CHN18CS021
+8.50
+
+CHN18CS022
+-3
+
+CHN18CS023
+7.62
+
+CHN18CS024
+-3
+
+CHN18CS025
+7.88
+
+CHN18CS026
+8.50
+
+CHN18CS027
+-3
+
+CHN18CS028
+-2
+
+CHN18CS029
+9.06
+
+CHN18CS030
+7.88
+
+CHN18CS031
+-2
+
+CHN18CS032
+7.75
+
+CHN18CS033
+9.19
+
+CHN18CS034
+-2
+
+CHN18CS035
+9.06
+
+CHN18CS036
+8.50
+
+CHN18CS037
+8.25
+
+CHN18CS038
+8.38
+
+CHN18CS039
+7.94
+
+CHN18CS040
+-3
+
+CHN18CS041
+-4
+
+CHN18CS042
+7.75
+
+CHN18CS043
+7.81
+
+CHN18CS044
+-1
+
+CHN18CS045
+-1
+
+CHN18CS046
+-2
+
+CHN18CS047
+-1
+
+CHN18CS048
+-4
+
+CHN18CS049
+8.38
+
+CHN18CS050
+-3
+
+CHN18CS051
+-2
+
+CHN18CS052
+-5
+
+CHN18CS053
+7.69
+
+CHN18CS054
+8.81
+
+CHN18CS055
+-1
+
+CHN18CS056
+8.19
+
+CHN18CS057
+7.81
+
+CHN18CS058
+8.44
+
+CHN18CS059
+9.31
+
+CHN18CS060
+-1
+
+CHN18CS061
+-2
+
+CHN18CS062
+8.81
+
+CHN18CS063
+8.25
+
+CHN18CS064
+-1
+
+CHN18CS065
+-3
+
+CHN18CS066
+-2
+
+CHN18CS067
+-1
+
+CHN18CS068
+7.56
+
+CHN18CS069
+8.00
+
+CHN18CS070
+-1
+
+CHN18CS071
+-3
+
+CHN18CS072
+8.57
+
+CHN18CS073
+8.69
+
+CHN18CS074
+-3
+
+CHN18CS075
+7.81
+
+CHN18CS076
+-1
+
+CHN18CS077
+8.94
+
+CHN18CS078
+-1
+
+CHN18CS079
+7.62
+
+CHN18CS080
+9.25
+
+CHN18CS081
+-2
+
+CHN18CS082
+7.62
+
+CHN18CS083
+-4
+
+CHN18CS084
+7.50
+
+CHN18CS085
+-3
+
+CHN18CS086
+-1
+
+CHN18CS087
+9.44
+
+CHN18CS088
+-1
+
+CHN18CS089
+-1
+
+CHN18CS090
+-5
+
+CHN18CS091
+8.94
+
+CHN18CS092
+8.69
+
+CHN18CS093
+9.56
+
+CHN18CS094
+-1
+
+CHN18CS095
+9.00
+
+CHN18CS096
+7.75
+
+CHN18CS097
+7.81
+
+CHN18CS098
+-3
+
+CHN18CS099
+8.93
+
+CHN18CS100
+8.69
+
+CHN18CS101
+7.69
+
+CHN18CS102
+8.31
+
+CHN18CS103
+9.00
+
+CHN18CS104
+9.00
+
+CHN18CS105
+8.25
+
+CHN18CS106
+6.81
+
+CHN18CS107
+-1
+
+CHN18CS108
+-3
+
+CHN18CS109
+-2
+
+CHN18CS110
+-1
+
+CHN18CS111
+8.14
+
+CHN18CS112
+7.75
+
+CHN18CS113
+8.31
+
+CHN18CS114
+-1
+
+CHN18CS115
+8.56
+
+CHN18CS116
+8.25
+
+CHN18CS117
+-5
+
+CHN18CS118
+7.81
+
+CHN18CS119
+-5
+
+CHN18CS120
+6.75
+
+CHN18CS121
+8.00
+
+CHN18CS122
+8.38
+
+CHN18CS123
+8.62
+
+]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ a[Kpython code.py[C[Kpython code.pygrep "CHN18CS" result_s1.txt >result_1.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpython code.py[K[1Pgedit[C[C[C[C[C[C[C[Csed 's/\t//g' result_cs1.txt > result_c1.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Ptr  '\n' ' '<result_1.txt > result_cs1.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csed 's/\t//g' result_cs1.txt > result_c1.txt[8P > result_c1tr  '\n' ' '<result_1.txt > result_cs1[5Pgrep result_s2.txt >result_2.txt 
+^Z
+[1]+  Stopped                 grep --color=auto result_s2.txt > result_2.txt
+]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ grep result_s2.txt >result_2.txt [19Ppython code.pygrep "CHN18CS" result_s1.txt >result_1.txt [1P[1@2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@2[C[C[C[C[C
+]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ grep "CHN18CS" result_s2.txt >result_2.txt [10P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Ppython code.py
+'/home/s4c1/ceccs18c32/cs232/0702/result_2.txt' 
+CHN18CS001
+8.31
+
+CHN18CS002
+-5
+
+CHN18CS003
+9.19
+
+CHN18CS004
+8.94
+
+CHN18CS005
+8.06
+
+CHN18CS006
+-2
+
+CHN18CS007
+8.50
+
+CHN18CS008
+8.25
+
+CHN18CS009
+9.44
+
+CHN18CS010
+9.50
+
+CHN18CS011
+-1
+
+CHN18CS012
+7.94
+
+CHN18CS013
+-2
+
+CHN18CS014
+-2
+
+CHN18CS015
+-1
+
+CHN18CS016
+8.62
+
+CHN18CS017
+8.75
+
+CHN18CS018
+9.62
+
+CHN18CS019
+-1
+
+CHN18CS020
+9.25
+
+CHN18CS021
+8.88
+
+CHN18CS022
+-1
+
+CHN18CS023
+8.38
+
+CHN18CS024
+-3
+
+CHN18CS025
+8.00
+
+CHN18CS026
+8.94
+
+CHN18CS027
+-3
+
+CHN18CS028
+-2
+
+CHN18CS029
+9.50
+
+CHN18CS030
+-1
+
+CHN18CS031
+-2
+
+CHN18CS032
+7.69
+
+CHN18CS033
+9.12
+
+CHN18CS034
+-1
+
+CHN18CS035
+9.38
+
+CHN18CS036
+8.75
+
+CHN18CS037
+8.38
+
+CHN18CS038
+8.56
+
+CHN18CS039
+8.31
+
+CHN18CS040
+-1
+
+CHN18CS041
+-1
+
+CHN18CS042
+7.88
+
+CHN18CS043
+8.69
+
+CHN18CS044
+-3
+
+CHN18CS045
+7.75
+
+CHN18CS046
+7.88
+
+CHN18CS047
+-1
+
+CHN18CS048
+-4
+
+CHN18CS049
+8.81
+
+CHN18CS050
+-4
+
+CHN18CS051
+-2
+
+CHN18CS052
+-2
+
+CHN18CS053
+-1
+
+CHN18CS054
+9.12
+
+CHN18CS055
+8.19
+
+CHN18CS056
+7.88
+
+CHN18CS057
+7.94
+
+CHN18CS058
+9.00
+
+CHN18CS059
+9.12
+
+CHN18CS060
+-2
+
+CHN18CS061
+-5
+
+CHN18CS062
+9.81
+
+CHN18CS063
+8.31
+
+CHN18CS064
+-1
+
+CHN18CS065
+-1
+
+CHN18CS066
+-2
+
+CHN18CS067
+-1
+
+CHN18CS068
+8.12
+
+CHN18CS069
+8.44
+
+CHN18CS070
+8.69
+
+CHN18CS071
+-3
+
+CHN18CS072
+8.25
+
+CHN18CS073
+8.94
+
+CHN18CS074
+7.56
+
+CHN18CS075
+7.81
+
+CHN18CS076
+-1
+
+CHN18CS077
+9.62
+
+CHN18CS078
+8.31
+
+CHN18CS079
+7.62
+
+CHN18CS080
+9.62
+
+CHN18CS081
+-1
+
+CHN18CS082
+-1
+
+CHN18CS083
+-1
+
+CHN18CS084
+7.75
+
+CHN18CS085
+-1
+
+CHN18CS086
+-2
+
+CHN18CS087
+9.81
+
+CHN18CS088
+-2
+
+CHN18CS089
+-2
+
+CHN18CS090
+-5
+
+CHN18CS091
+9.12
+
+CHN18CS092
+9.50
+
+CHN18CS093
+9.38
+
+CHN18CS094
+7.94
+
+CHN18CS095
+9.62
+
+CHN18CS096
+8.12
+
+CHN18CS097
+-2
+
+CHN18CS098
+-3
+
+CHN18CS099
+9.62
+
+CHN18CS100
+-1
+
+CHN18CS101
+-1
+
+CHN18CS102
+9.00
+
+CHN18CS103
+9.06
+
+CHN18CS104
+8.88
+
+CHN18CS105
+8.12
+
+CHN18CS106
+-2
+
+CHN18CS107
+8.00
+
+CHN18CS108
+7.75
+
+CHN18CS109
+7.38
+
+CHN18CS110
+-3
+
+CHN18CS111
+8.56
+
+CHN18CS112
+8.12
+
+CHN18CS113
+7.88
+
+CHN18CS114
+-3
+
+CHN18CS115
+-1
+
+CHN18CS116
+8.38
+
+CHN18CS117
+-3
+
+CHN18CS118
+-2
+
+CHN18CS119
+-6
+
+CHN18CS120
+-2
+
+CHN18CS121
+7.75
+
+CHN18CS122
+9.06
+
+CHN18CS123
+-3
+
+]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [K]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ gedit report.txt
+]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ sftp cs18c32@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c32@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+examples.desktop      
+sftp> mkdir 0702
+sftp> cd 0702
+sftp> put work.txx[Kt
+Uploading work.txt to /home/cs18c32/0702/work.txt
+work.txt                            0%    0     0.0KB/s   --:-- ETAwork.txt                          125%   20KB   2.5MB/s   00:00    
+sftp> put report.txt
+Uploading report.txt to /home/cs18c32/0702/report.txt
+report.txt                          0%    0     0.0KB/s   --:-- ETAreport.txt                        100% 1028   546.2KB/s   00:00    
+sftp> put report.txt.txt[K.txt[K.txt[K.txt[Ks.txty.txt.txt[K.txt[K.txt[K.txt[Kc.txto.txtd.txte.txt.txt[K[K[Kpy
+Uploading code.py to /home/cs18c32/0702/code.py
+code.py                             0%    0     0.0KB/s   --:-- ETAcode.py                           100%  760   478.1KB/s   00:00    
+sftp> put code.py.py[K[K[K[K[K[K[Kresult_1.txt
+Uploading result_1.txt to /home/cs18c32/0702/result_1.txt
+result_1.txt                        0%    0     0.0KB/s   --:-- ETAresult_1.txt                      100%   12KB   3.5MB/s   00:00    
+sftp> put result_1.txt1.txt[K2.txt.txt
+Uploading result_2.txt to /home/cs18c32/0702/result_2.txt
+result_2.txt                        0%    0     0.0KB/s   --:-- ETAresult_2.txt                      100%   11KB   3.6MB/s   00:00    
+sftp> put result_2.txt2.txt[Ks.txt1.txt.txt
+Uploading result_s1.txt to /home/cs18c32/0702/result_s1.txt
+result_s1.txt                       0%    0     0.0KB/s   --:-- ETAresult_s1.txt                     100%   46KB   5.2MB/s   00:00    
+sftp> put result_s1.txt.txt[K2.txt.txt
+Uploading result_s2.txt to /home/cs18c32/0702/result_s2.txt
+result_s2.txt                       0%    0     0.0KB/s   --:-- ETAresult_s2.txt                     100%   43KB   5.1MB/s   00:00    
+sftp> ls
+code.py          report.txt       result_1.txt     result_2.txt     
+result_s1.txt    result_s2.txt    work.txt         
+sftp> bye
+]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ git pullhttp://github.com/ceccs118cxx/cs232[1P/cs232[C[C[C[C[1P/cs232[C[C[C3/cs232[C[C[C[C2/cs232[C[C[C[C[C[C[A]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [6Psftp cs18c32@192.168.0.30
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit pullhttp://github.com/ceccs118c32/cs232[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C lhttp://github.com/ceccs18c32/cs232[A]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [C[C[C[C[C[C[C[Clhttp://github.com/ceccs1[1P8c32/cs232[A]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [C[C[C[C[C[C[C[C http://github.com/ceccs18c32/cs232[A]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C
+fatal: unable to access 'http://github.com/ceccs18c32/cs232/': Could not resolve host: github.com
+]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ git pull http://github.com/ceccss18c32/cs232[A]0;s4c1@CC2-27: ~/ceccs18c32/cs232/0702[01;32ms4c1@CC2-27[00m:[01;34m~/ceccs18c32/cs232/0702[00m$ [6Psftp cs18c32@192.168.0.30
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pgedit report.txtsftp cs18c32@192.168.0.30
