@@ -1,0 +1,36 @@
+CEC CS 18 c32
+Jonathan John 
+
+--------------------------------
+#1: Scripting task (t2)
+---------------------------------
+Command/Shell script/Program name
+ #1:computation of cgpa:to calculate the cgpa using result_1 and result_2
+ #2:pdftotxt layout 
+---------------------------------
+
+Input: (If relevant)
+---------------
+ # pdftotext -layout result_s1.pdf
+ # pdftotext -layout result_s2.pdf
+ # grep "CHN18CS" result_s1.txt >result_1.txt 
+ # grep "CHN18CS" result_s2.txt >result_2.txt 
+
+  
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+ # The pdf is converted to text file of result_s1.
+ # The pdf is converted to text file of result_s2.
+ # Lists out the results of cs department under result_1 .
+ # Lists out the results of cs department under result_2 .
+-------------------
+Remarks if any:
+ The cgpa for students who passed all subjects and displayed the rest of the students failed in n subjects as -n .
+
+
+
+
+-------------------------------------
+-------------------------------------
+
+
