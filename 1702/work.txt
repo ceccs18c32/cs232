@@ -1,0 +1,6873 @@
+Script started on Friday 31 January 2020 09:50:30 AM IST
+]0;s4c1@proxysrvr: ~/ceccs18c32/cs232/1702[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c32/cs232/1702[00m$ index.t[K[K[K[K[K[K[Kmk[K[Kmkdir index.htm[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgedit index.html
+]0;s4c1@proxysrvr: ~/ceccs18c32/cs232/1702[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c32/cs232/1702[00m$ gedit index.html
+]0;s4c1@proxysrvr: ~/ceccs18c32/cs232/1702[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c32/cs232/1702[00m$ gedit index.html
+]0;s4c1@proxysrvr: ~/ceccs18c32/cs232/1702[01;32ms4c1@proxysrvr[00m:[01;34m~/ceccs18c32/cs232/1702[00m$ exit
+exit
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifconfig =a[K[K_[K-a
+eth0      Link encap:Ethernet  HWaddr 00:24:81:15:b0:6f  
+          inet addr:192.168.1.143  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::224:81ff:fe15:b06f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:61358 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:1622 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:6398820 (6.3 MB)  TX bytes:218802 (218.8 KB)
+          Interrupt:19 Memory:f0500000-f0520000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:68 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:68 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:4524 (4.5 KB)  TX bytes:4524 (4.5 KB)
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifconfig eth0 192 
+.0.20
+SIOCSIFADDR: Operation not permitted
+SIOCSIFFLAGS: Operation not permitted
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ route
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+link-local      *               255.255.0.0     U     1000   0        0 eth0
+192.168.0.0     *               255.255.254.0   U     1      0        0 eth0
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping
+Usage: ping [-LRUbdfnqrvVaAD] [-c count] [-i interval] [-w deadline]
+            [-p pattern] [-s packetsize] [-t ttl] [-I interface]
+            [-M pmtudisc-hint] [-m mark] [-S sndbuf]
+            [-T tstamp-options] [-Q tos] [hop1 ...] destination
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ iwconfig
+lo        no wireless extensions.
+
+eth0      no wireless extensions.
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifup
+ifup: Use --help for help
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ --help
+--help: command not found
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifup//[K[K [K--[K[K --help
+Usage: ifup <options> <ifaces...>
+
+Options:
+	-h, --help		this help
+	-V, --version		copyright and version information
+	-a, --all		de/configure all interfaces marked "auto"
+	--allow CLASS		ignore non-"allow-CLASS" interfaces
+	-i, --interfaces FILE	use FILE for interface definitions
+	-e, --exclude PATTERN	exclude interfaces from the list of
+				interfaces to operate on by a PATTERN
+	-n, --no-act		print out what would happen, but don't do it
+				(note that this option doesn't disable mappings)
+	-v, --verbose		print out what would happen before doing it
+	-o OPTION=VALUE		set OPTION to VALUE as though it were in
+				/etc/network/interfaces
+	--no-mappings		don't run any mappings
+	--force			force de/configuration
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ftp
+ftp> quit
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping 192.168.0.2
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+64 bytes from 192.168.0.2: icmp_req=1 ttl=64 time=0.217 ms
+64 bytes from 192.168.0.2: icmp_req=2 ttl=64 time=0.602 ms
+64 bytes from 192.168.0.2: icmp_req=3 ttl=64 time=0.260 ms
+64 bytes from 192.168.0.2: icmp_req=4 ttl=64 time=0.572 ms
+64 bytes from 192.168.0.2: icmp_req=5 ttl=64 time=0.179 ms
+64 bytes from 192.168.0.2: icmp_req=6 ttl=64 time=0.531 ms
+64 bytes from 192.168.0.2: icmp_req=7 ttl=64 time=0.519 ms
+64 bytes from 192.168.0.2: icmp_req=8 ttl=64 time=0.257 ms
+64 bytes from 192.168.0.2: icmp_req=9 ttl=64 time=0.575 ms
+64 bytes from 192.168.0.2: icmp_req=10 ttl=64 time=0.569 ms
+64 bytes from 192.168.0.2: icmp_req=11 ttl=64 time=0.591 ms
+64 bytes from 192.168.0.2: icmp_req=12 ttl=64 time=0.566 ms
+^Z
+[1]+  Stopped                 ping 192.168.0.2
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ls
+work.txt
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ car [K[Kt work.txt 
+Script started on Friday 31 January 2020 09:50:30 AM IST
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifconfig =a[K[K_[K-a
+
+eth0      Link encap:Ethernet  HWaddr 00:24:81:15:b0:6f  
+
+          inet addr:192.168.1.143  Bcast:192.168.1.255  Mask:255.255.254.0
+
+          inet6 addr: fe80::224:81ff:fe15:b06f/64 Scope:Link
+
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+          RX packets:61358 errors:0 dropped:0 overruns:0 frame:0
+
+          TX packets:1622 errors:0 dropped:0 overruns:0 carrier:0
+
+          collisions:0 txqueuelen:1000 
+
+          RX bytes:6398820 (6.3 MB)  TX bytes:218802 (218.8 KB)
+
+          Interrupt:19 Memory:f0500000-f0520000 
+
+
+
+lo        Link encap:Local Loopback  
+
+          inet addr:127.0.0.1  Mask:255.0.0.0
+
+          inet6 addr: ::1/128 Scope:Host
+
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+
+          RX packets:68 errors:0 dropped:0 overruns:0 frame:0
+
+          TX packets:68 errors:0 dropped:0 overruns:0 carrier:0
+
+          collisions:0 txqueuelen:0 
+
+          RX bytes:4524 (4.5 KB)  TX bytes:4524 (4.5 KB)
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifconfig eth0 192 
+.0.20
+
+SIOCSIFADDR: Operation not permitted
+
+SIOCSIFFLAGS: Operation not permitted
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ route
+
+Kernel IP routing table
+
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+
+link-local      *               255.255.0.0     U     1000   0        0 eth0
+
+192.168.0.0     *               255.255.254.0   U     1      0        0 eth0
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping
+
+Usage: ping [-LRUbdfnqrvVaAD] [-c count] [-i interval] [-w deadline]
+
+            [-p pattern] [-s packetsize] [-t ttl] [-I interface]
+
+            [-M pmtudisc-hint] [-m mark] [-S sndbuf]
+
+            [-T tstamp-options] [-Q tos] [hop1 ...] destination
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ iwconfig
+
+lo        no wireless extensions.
+
+
+
+eth0      no wireless extensions.
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifup
+
+ifup: Use --help for help
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ --help
+
+--help: command not found
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifup//[K[K [K--[K[K --help
+
+Usage: ifup <options> <ifaces...>
+
+
+
+Options:
+
+	-h, --help		this help
+
+	-V, --version		copyright and version information
+
+	-a, --all		de/configure all interfaces marked "auto"
+
+	--allow CLASS		ignore non-"allow-CLASS" interfaces
+
+	-i, --interfaces FILE	use FILE for interface definitions
+
+	-e, --exclude PATTERN	exclude interfaces from the list of
+
+				interfaces to operate on by a PATTERN
+
+	-n, --no-act		print out what would happen, but don't do it
+
+				(note that this option doesn't disable mappings)
+
+	-v, --verbose		print out what would happen before doing it
+
+	-o OPTION=VALUE		set OPTION to VALUE as though it were in
+
+				/etc/network/interfaces
+
+	--no-mappings		don't run any mappings
+
+	--force			force de/configuration
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ftp
+
+ftp> quit
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping 192.168.0.2
+
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+
+64 bytes from 192.168.0.2: icmp_req=1 ttl=64 time=0.217 ms
+
+64 bytes from 192.168.0.2: icmp_req=2 ttl=64 time=0.602 ms
+
+64 bytes from 192.168.0.2: icmp_req=3 ttl=64 time=0.260 ms
+
+64 bytes from 192.168.0.2: icmp_req=4 ttl=64 time=0.572 ms
+
+64 bytes from 192.168.0.2: icmp_req=5 ttl=64 time=0.179 ms
+
+64 bytes from 192.168.0.2: icmp_req=6 ttl=64 time=0.531 ms
+
+64 bytes from 192.168.0.2: icmp_req=7 ttl=64 time=0.519 ms
+
+64 bytes from 192.168.0.2: icmp_req=8 ttl=64 time=0.257 ms
+
+64 bytes from 192.168.0.2: icmp_req=9 ttl=64 time=0.575 ms
+
+64 bytes from 192.168.0.2: icmp_req=10 ttl=64 time=0.569 ms
+
+64 bytes from 192.168.0.2: icmp_req=11 ttl=64 time=0.591 ms
+
+64 bytes from 192.168.0.2: icmp_req=12 ttl=64 time=0.566 ms
+
+^Z
+
+[1]+  Stopped                 ping 192.168.0.2
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ls
+
+work.txt
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ car [K[Kt work.txt 
+
+Script started on Friday 31 January 2020 09:50:30 AM IST
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifconfig =a[K[K_[K-a
+
+
+eth0      Link encap:Ethernet  HWaddr 00:24:81:15:b0:6f  
+
+
+          inet addr:192.168.1.143  Bcast:192.168.1.255  Mask:255.255.254.0
+
+
+          inet6 addr: fe80::224:81ff:fe15:b06f/64 Scope:Link
+
+
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+
+          RX packets:61358 errors:0 dropped:0 overruns:0 frame:0
+
+
+          TX packets:1622 errors:0 dropped:0 overruns:0 carrier:0
+
+
+          collisions:0 txqueuelen:1000 
+
+
+          RX bytes:6398820 (6.3 MB)  TX bytes:218802 (218.8 KB)
+
+
+          Interrupt:19 Memory:f0500000-f0520000 
+
+
+
+
+
+lo        Link encap:Local Loopback  
+
+
+          inet addr:127.0.0.1  Mask:255.0.0.0
+
+
+          inet6 addr: ::1/128 Scope:Host
+
+
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+
+
+          RX packets:68 errors:0 dropped:0 overruns:0 frame:0
+
+
+          TX packets:68 errors:0 dropped:0 overruns:0 carrier:0
+
+
+          collisions:0 txqueuelen:0 
+
+
+          RX bytes:4524 (4.5 KB)  TX bytes:4524 (4.5 KB)
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifconfig eth0 192 
+.0.20
+
+
+SIOCSIFADDR: Operation not permitted
+
+
+SIOCSIFFLAGS: Operation not permitted
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ route
+
+
+Kernel IP routing table
+
+
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+
+
+link-local      *               255.255.0.0     U     1000   0        0 eth0
+
+
+192.168.0.0     *               255.255.254.0   U     1      0        0 eth0
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping
+
+
+Usage: ping [-LRUbdfnqrvVaAD] [-c count] [-i interval] [-w deadline]
+
+
+            [-p pattern] [-s packetsize] [-t ttl] [-I interface]
+
+
+            [-M pmtudisc-hint] [-m mark] [-S sndbuf]
+
+
+            [-T tstamp-options] [-Q tos] [hop1 ...] destination
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ iwconfig
+
+
+lo        no wireless extensions.
+
+
+
+
+
+eth0      no wireless extensions.
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifup
+
+
+ifup: Use --help for help
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ --help
+
+
+--help: command not found
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifup//[K[K [K--[K[K --help
+
+
+Usage: ifup <options> <ifaces...>
+
+
+
+
+
+Options:
+
+
+	-h, --help		this help
+
+
+	-V, --version		copyright and version information
+
+
+	-a, --all		de/configure all interfaces marked "auto"
+
+
+	--allow CLASS		ignore non-"allow-CLASS" interfaces
+
+
+	-i, --interfaces FILE	use FILE for interface definitions
+
+
+	-e, --exclude PATTERN	exclude interfaces from the list of
+
+
+				interfaces to operate on by a PATTERN
+
+
+	-n, --no-act		print out what would happen, but don't do it
+
+
+				(note that this option doesn't disable mappings)
+
+
+	-v, --verbose		print out what would happen before doing it
+
+
+	-o OPTION=VALUE		set OPTION to VALUE as though it were in
+
+
+				/etc/network/interfaces
+
+
+	--no-mappings		don't run any mappings
+
+
+	--force			force de/configuration
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ftp
+
+
+ftp> quit
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping 192.168.0.2
+
+
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+
+
+64 bytes from 192.168.0.2: icmp_req=1 ttl=64 time=0.217 ms
+
+
+64 bytes from 192.168.0.2: icmp_req=2 ttl=64 time=0.602 ms
+
+
+64 bytes from 192.168.0.2: icmp_req=3 ttl=64 time=0.260 ms
+
+
+64 bytes from 192.168.0.2: icmp_req=4 ttl=64 time=0.572 ms
+
+
+64 bytes from 192.168.0.2: icmp_req=5 ttl=64 time=0.179 ms
+
+
+64 bytes from 192.168.0.2: icmp_req=6 ttl=64 time=0.531 ms
+
+
+64 bytes from 192.168.0.2: icmp_req=7 ttl=64 time=0.519 ms
+
+
+64 bytes from 192.168.0.2: icmp_req=8 ttl=64 time=0.257 ms
+
+
+64 bytes from 192.168.0.2: icmp_req=9 ttl=64 time=0.575 ms
+
+
+64 bytes from 192.168.0.2: icmp_req=10 ttl=64 time=0.569 ms
+
+
+64 bytes from 192.168.0.2: icmp_req=11 ttl=64 time=0.591 ms
+
+
+64 bytes from 192.168.0.2: icmp_req=12 ttl=64 time=0.566 ms
+
+
+^Z
+
+
+[1]+  Stopped                 ping 192.168.0.2
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ls
+
+
+work.txt
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ car [K[Kt work.txt 
+
+
+Script started on Friday 31 January 2020 09:50:30 AM IST
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifconfig =a[K[K_[K-a
+
+
+
+eth0      Link encap:Ethernet  HWaddr 00:24:81:15:b0:6f  
+
+
+
+          inet addr:192.168.1.143  Bcast:192.168.1.255  Mask:255.255.254.0
+
+
+
+          inet6 addr: fe80::224:81ff:fe15:b06f/64 Scope:Link
+
+
+
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+
+
+          RX packets:61358 errors:0 dropped:0 overruns:0 frame:0
+
+
+
+          TX packets:1622 errors:0 dropped:0 overruns:0 carrier:0
+
+
+
+          collisions:0 txqueuelen:1000 
+
+
+
+          RX bytes:6398820 (6.3 MB)  TX bytes:218802 (218.8 KB)
+
+
+
+          Interrupt:19 Memory:f0500000-f0520000 
+
+
+
+
+
+
+
+lo        Link encap:Local Loopback  
+
+
+
+          inet addr:127.0.0.1  Mask:255.0.0.0
+
+
+
+          inet6 addr: ::1/128 Scope:Host
+
+
+
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+
+
+
+          RX packets:68 errors:0 dropped:0 overruns:0 frame:0
+
+
+
+          TX packets:68 errors:0 dropped:0 overruns:0 carrier:0
+
+
+
+          collisions:0 txqueuelen:0 
+
+
+
+          RX bytes:4524 (4.5 KB)  TX bytes:4524 (4.5 KB)
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifconfig eth0 192 
+.0.20
+
+
+
+SIOCSIFADDR: Operation not permitted
+
+
+
+SIOCSIFFLAGS: Operation not permitted
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ route
+
+
+
+Kernel IP routing table
+
+
+
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+
+
+
+link-local      *               255.255.0.0     U     1000   0        0 eth0
+
+
+
+192.168.0.0     *               255.255.254.0   U     1      0        0 eth0
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping
+
+
+
+Usage: ping [-LRUbdfnqrvVaAD] [-c count] [-i interval] [-w deadline]
+
+
+
+            [-p pattern] [-s packetsize] [-t ttl] [-I interface]
+
+
+
+            [-M pmtudisc-hint] [-m mark] [-S sndbuf]
+
+
+
+            [-T tstamp-options] [-Q tos] [hop1 ...] destination
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ iwconfig
+
+
+
+lo        no wireless extensions.
+
+
+
+
+
+
+
+eth0      no wireless extensions.
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifup
+
+
+
+ifup: Use --help for help
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ --help
+
+
+
+--help: command not found
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifup//[K[K [K--[K[K --help
+
+
+
+Usage: ifup <options> <ifaces...>
+
+
+
+
+
+
+
+Options:
+
+
+
+	-h, --help		this help
+
+
+
+	-V, --version		copyright and version information
+
+
+
+	-a, --all		de/configure all interfaces marked "auto"
+
+
+
+	--allow CLASS		ignore non-"allow-CLASS" interfaces
+
+
+
+	-i, --interfaces FILE	use FILE for interface definitions
+
+
+
+	-e, --exclude PATTERN	exclude interfaces from the list of
+
+
+
+				interfaces to operate on by a PATTERN
+
+
+
+	-n, --no-act		print out what would happen, but don't do it
+
+
+
+				(note that this option doesn't disable mappings)
+
+
+
+	-v, --verbose		print out what would happen before doing it
+
+
+
+	-o OPTION=VALUE		set OPTION to VALUE as though it were in
+
+
+
+				/etc/network/interfaces
+
+
+
+	--no-mappings		don't run any mappings
+
+
+
+	--force			force de/configuration
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ftp
+
+
+
+ftp> quit
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping 192.168.0.2
+
+
+
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+
+
+
+64 bytes from 192.168.0.2: icmp_req=1 ttl=64 time=0.217 ms
+
+
+
+64 bytes from 192.168.0.2: icmp_req=2 ttl=64 time=0.602 ms
+
+
+
+64 bytes from 192.168.0.2: icmp_req=3 ttl=64 time=0.260 ms
+
+
+
+64 bytes from 192.168.0.2: icmp_req=4 ttl=64 time=0.572 ms
+
+
+
+64 bytes from 192.168.0.2: icmp_req=5 ttl=64 time=0.179 ms
+
+
+
+64 bytes from 192.168.0.2: icmp_req=6 ttl=64 time=0.531 ms
+
+
+
+64 bytes from 192.168.0.2: icmp_req=7 ttl=64 time=0.519 ms
+
+
+
+64 bytes from 192.168.0.2: icmp_req=8 ttl=64 time=0.257 ms
+
+
+
+64 bytes from 192.168.0.2: icmp_req=9 ttl=64 time=0.575 ms
+
+
+
+64 bytes from 192.168.0.2: icmp_req=10 ttl=64 time=0.569 ms
+
+
+
+64 bytes from 192.168.0.2: icmp_req=11 ttl=64 time=0.591 ms
+
+
+
+64 bytes from 192.168.0.2: icmp_req=12 ttl=64 time=0.566 ms
+
+
+
+^Z
+
+
+
+[1]+  Stopped                 ping 192.168.0.2
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ls
+
+
+
+work.txt
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ car [K[Kt work.txt 
+
+
+
+Script started on Friday 31 January 2020 09:50:30 AM IST
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifconfig =a[K[K_[K-a
+
+
+
+
+eth0      Link encap:Ethernet  HWaddr 00:24:81:15:b0:6f  
+
+
+
+
+          inet addr:192.168.1.143  Bcast:192.168.1.255  Mask:255.255.254.0
+
+
+
+
+          inet6 addr: fe80::224:81ff:fe15:b06f/64 Scope:Link
+
+
+
+
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+
+
+
+          RX packets:61358 errors:0 dropped:0 overruns:0 frame:0
+
+
+
+
+          TX packets:1622 errors:0 dropped:0 overruns:0 carrier:0
+
+
+
+
+          collisions:0 txqueuelen:1000 
+
+
+
+
+          RX bytes:6398820 (6.3 MB)  TX bytes:218802 (218.8 KB)
+
+
+
+
+          Interrupt:19 Memory:f0500000-f0520000 
+
+
+
+
+
+
+
+
+
+lo        Link encap:Local Loopback  
+
+
+
+
+          inet addr:127.0.0.1  Mask:255.0.0.0
+
+
+
+
+          inet6 addr: ::1/128 Scope:Host
+
+
+
+
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+
+
+
+
+          RX packets:68 errors:0 dropped:0 overruns:0 frame:0
+
+
+
+
+          TX packets:68 errors:0 dropped:0 overruns:0 carrier:0
+
+
+
+
+          collisions:0 txqueuelen:0 
+
+
+
+
+          RX bytes:4524 (4.5 KB)  TX bytes:4524 (4.5 KB)
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifconfig eth0 192 
+.0.20
+
+
+
+
+SIOCSIFADDR: Operation not permitted
+
+
+
+
+SIOCSIFFLAGS: Operation not permitted
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ route
+
+
+
+
+Kernel IP routing table
+
+
+
+
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+
+
+
+
+link-local      *               255.255.0.0     U     1000   0        0 eth0
+
+
+
+
+192.168.0.0     *               255.255.254.0   U     1      0        0 eth0
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping
+
+
+
+
+Usage: ping [-LRUbdfnqrvVaAD] [-c count] [-i interval] [-w deadline]
+
+
+
+
+            [-p pattern] [-s packetsize] [-t ttl] [-I interface]
+
+
+
+
+            [-M pmtudisc-hint] [-m mark] [-S sndbuf]
+
+
+
+
+            [-T tstamp-options] [-Q tos] [hop1 ...] destination
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ iwconfig
+
+
+
+
+lo        no wireless extensions.
+
+
+
+
+
+
+
+
+
+eth0      no wireless extensions.
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifup
+
+
+
+
+ifup: Use --help for help
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ --help
+
+
+
+
+--help: command not found
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifup//[K[K [K--[K[K --help
+
+
+
+
+Usage: ifup <options> <ifaces...>
+
+
+
+
+
+
+
+
+
+Options:
+
+
+
+
+	-h, --help		this help
+
+
+
+
+	-V, --version		copyright and version information
+
+
+
+
+	-a, --all		de/configure all interfaces marked "auto"
+
+
+
+
+	--allow CLASS		ignore non-"allow-CLASS" interfaces
+
+
+
+
+	-i, --interfaces FILE	use FILE for interface definitions
+
+
+
+
+	-e, --exclude PATTERN	exclude interfaces from the list of
+
+
+
+
+				interfaces to operate on by a PATTERN
+
+
+
+
+	-n, --no-act		print out what would happen, but don't do it
+
+
+
+
+				(note that this option doesn't disable mappings)
+
+
+
+
+	-v, --verbose		print out what would happen before doing it
+
+
+
+
+	-o OPTION=VALUE		set OPTION to VALUE as though it were in
+
+
+
+
+				/etc/network/interfaces
+
+
+
+
+	--no-mappings		don't run any mappings
+
+
+
+
+	--force			force de/configuration
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ftp
+
+
+
+
+ftp> quit
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping 192.168.0.2
+
+
+
+
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=1 ttl=64 time=0.217 ms
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=2 ttl=64 time=0.602 ms
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=3 ttl=64 time=0.260 ms
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=4 ttl=64 time=0.572 ms
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=5 ttl=64 time=0.179 ms
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=6 ttl=64 time=0.531 ms
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=7 ttl=64 time=0.519 ms
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=8 ttl=64 time=0.257 ms
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=9 ttl=64 time=0.575 ms
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=10 ttl=64 time=0.569 ms
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=11 ttl=64 time=0.591 ms
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=12 ttl=64 time=0.566 ms
+
+
+
+
+^Z
+
+
+
+
+[1]+  Stopped                 ping 192.168.0.2
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ls
+
+
+
+
+work.txt
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ car [K[Kt work.txt 
+
+
+
+
+Script started on Friday 31 January 2020 09:50:30 AM IST
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifconfig =a[K[K_[K-a
+
+
+
+
+
+eth0      Link encap:Ethernet  HWaddr 00:24:81:15:b0:6f  
+
+
+
+
+
+          inet addr:192.168.1.143  Bcast:192.168.1.255  Mask:255.255.254.0
+
+
+
+
+
+          inet6 addr: fe80::224:81ff:fe15:b06f/64 Scope:Link
+
+
+
+
+
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+
+
+
+
+          RX packets:61358 errors:0 dropped:0 overruns:0 frame:0
+
+
+
+
+
+          TX packets:1622 errors:0 dropped:0 overruns:0 carrier:0
+
+
+
+
+
+          collisions:0 txqueuelen:1000 
+
+
+
+
+
+          RX bytes:6398820 (6.3 MB)  TX bytes:218802 (218.8 KB)
+
+
+
+
+
+          Interrupt:19 Memory:f0500000-f0520000 
+
+
+
+
+
+
+
+
+
+
+
+lo        Link encap:Local Loopback  
+
+
+
+
+
+          inet addr:127.0.0.1  Mask:255.0.0.0
+
+
+
+
+
+          inet6 addr: ::1/128 Scope:Host
+
+
+
+
+
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+
+
+
+
+
+          RX packets:68 errors:0 dropped:0 overruns:0 frame:0
+
+
+
+
+
+          TX packets:68 errors:0 dropped:0 overruns:0 carrier:0
+
+
+
+
+
+          collisions:0 txqueuelen:0 
+
+
+
+
+
+          RX bytes:4524 (4.5 KB)  TX bytes:4524 (4.5 KB)
+
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifconfig eth0 192 
+.0.20
+
+
+
+
+
+SIOCSIFADDR: Operation not permitted
+
+
+
+
+
+SIOCSIFFLAGS: Operation not permitted
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ route
+
+
+
+
+
+Kernel IP routing table
+
+
+
+
+
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+
+
+
+
+
+link-local      *               255.255.0.0     U     1000   0        0 eth0
+
+
+
+
+
+192.168.0.0     *               255.255.254.0   U     1      0        0 eth0
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping
+
+
+
+
+
+Usage: ping [-LRUbdfnqrvVaAD] [-c count] [-i interval] [-w deadline]
+
+
+
+
+
+            [-p pattern] [-s packetsize] [-t ttl] [-I interface]
+
+
+
+
+
+            [-M pmtudisc-hint] [-m mark] [-S sndbuf]
+
+
+
+
+
+            [-T tstamp-options] [-Q tos] [hop1 ...] destination
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ iwconfig
+
+
+
+
+
+lo        no wireless extensions.
+
+
+
+
+
+
+
+
+
+
+
+eth0      no wireless extensions.
+
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifup
+
+
+
+
+
+ifup: Use --help for help
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ --help
+
+
+
+
+
+--help: command not found
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifup//[K[K [K--[K[K --help
+
+
+
+
+
+Usage: ifup <options> <ifaces...>
+
+
+
+
+
+
+
+
+
+
+
+Options:
+
+
+
+
+
+	-h, --help		this help
+
+
+
+
+
+	-V, --version		copyright and version information
+
+
+
+
+
+	-a, --all		de/configure all interfaces marked "auto"
+
+
+
+
+
+	--allow CLASS		ignore non-"allow-CLASS" interfaces
+
+
+
+
+
+	-i, --interfaces FILE	use FILE for interface definitions
+
+
+
+
+
+	-e, --exclude PATTERN	exclude interfaces from the list of
+
+
+
+
+
+				interfaces to operate on by a PATTERN
+
+
+
+
+
+	-n, --no-act		print out what would happen, but don't do it
+
+
+
+
+
+				(note that this option doesn't disable mappings)
+
+
+
+
+
+	-v, --verbose		print out what would happen before doing it
+
+
+
+
+
+	-o OPTION=VALUE		set OPTION to VALUE as though it were in
+
+
+
+
+
+				/etc/network/interfaces
+
+
+
+
+
+	--no-mappings		don't run any mappings
+
+
+
+
+
+	--force			force de/configuration
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ftp
+
+
+
+
+
+ftp> quit
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping 192.168.0.2
+
+
+
+
+
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=1 ttl=64 time=0.217 ms
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=2 ttl=64 time=0.602 ms
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=3 ttl=64 time=0.260 ms
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=4 ttl=64 time=0.572 ms
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=5 ttl=64 time=0.179 ms
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=6 ttl=64 time=0.531 ms
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=7 ttl=64 time=0.519 ms
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=8 ttl=64 time=0.257 ms
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=9 ttl=64 time=0.575 ms
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=10 ttl=64 time=0.569 ms
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=11 ttl=64 time=0.591 ms
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=12 ttl=64 time=0.566 ms
+
+
+
+
+
+^Z
+
+
+
+
+
+[1]+  Stopped                 ping 192.168.0.2
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ls
+
+
+
+
+
+work.txt
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ car [K[Kt work.txt 
+
+
+
+
+
+Script started on Friday 31 January 2020 09:50:30 AM IST
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifconfig =a[K[K_[K-a
+
+
+
+
+
+
+eth0      Link encap:Ethernet  HWaddr 00:24:81:15:b0:6f  
+
+
+
+
+
+
+          inet addr:192.168.1.143  Bcast:192.168.1.255  Mask:255.255.254.0
+
+
+
+
+
+
+          inet6 addr: fe80::224:81ff:fe15:b06f/64 Scope:Link
+
+
+
+
+
+
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+
+
+
+
+
+          RX packets:61358 errors:0 dropped:0 overruns:0 frame:0
+
+
+
+
+
+
+          TX packets:1622 errors:0 dropped:0 overruns:0 carrier:0
+
+
+
+
+
+
+          collisions:0 txqueuelen:1000 
+
+
+
+
+
+
+          RX bytes:6398820 (6.3 MB)  TX bytes:218802 (218.8 KB)
+
+
+
+
+
+
+          Interrupt:19 Memory:f0500000-f0520000 
+
+
+
+
+
+
+
+
+
+
+
+
+
+lo        Link encap:Local Loopback  
+
+
+
+
+
+
+          inet addr:127.0.0.1  Mask:255.0.0.0
+
+
+
+
+
+
+          inet6 addr: ::1/128 Scope:Host
+
+
+
+
+
+
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+
+
+
+
+
+
+          RX packets:68 errors:0 dropped:0 overruns:0 frame:0
+
+
+
+
+
+
+          TX packets:68 errors:0 dropped:0 overruns:0 carrier:0
+
+
+
+
+
+
+          collisions:0 txqueuelen:0 
+
+
+
+
+
+
+          RX bytes:4524 (4.5 KB)  TX bytes:4524 (4.5 KB)
+
+
+
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifconfig eth0 192 
+.0.20
+
+
+
+
+
+
+SIOCSIFADDR: Operation not permitted
+
+
+
+
+
+
+SIOCSIFFLAGS: Operation not permitted
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ route
+
+
+
+
+
+
+Kernel IP routing table
+
+
+
+
+
+
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+
+
+
+
+
+
+link-local      *               255.255.0.0     U     1000   0        0 eth0
+
+
+
+
+
+
+192.168.0.0     *               255.255.254.0   U     1      0        0 eth0
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping
+
+
+
+
+
+
+Usage: ping [-LRUbdfnqrvVaAD] [-c count] [-i interval] [-w deadline]
+
+
+
+
+
+
+            [-p pattern] [-s packetsize] [-t ttl] [-I interface]
+
+
+
+
+
+
+            [-M pmtudisc-hint] [-m mark] [-S sndbuf]
+
+
+
+
+
+
+            [-T tstamp-options] [-Q tos] [hop1 ...] destination
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ iwconfig
+
+
+
+
+
+
+lo        no wireless extensions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+eth0      no wireless extensions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifup
+
+
+
+
+
+
+ifup: Use --help for help
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ --help
+
+
+
+
+
+
+--help: command not found
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifup//[K[K [K--[K[K --help
+
+
+
+
+
+
+Usage: ifup <options> <ifaces...>
+
+
+
+
+
+
+
+
+
+
+
+
+
+Options:
+
+
+
+
+
+
+	-h, --help		this help
+
+
+
+
+
+
+	-V, --version		copyright and version information
+
+
+
+
+
+
+	-a, --all		de/configure all interfaces marked "auto"
+
+
+
+
+
+
+	--allow CLASS		ignore non-"allow-CLASS" interfaces
+
+
+
+
+
+
+	-i, --interfaces FILE	use FILE for interface definitions
+
+
+
+
+
+
+	-e, --exclude PATTERN	exclude interfaces from the list of
+
+
+
+
+
+
+				interfaces to operate on by a PATTERN
+
+
+
+
+
+
+	-n, --no-act		print out what would happen, but don't do it
+
+
+
+
+
+
+				(note that this option doesn't disable mappings)
+
+
+
+
+
+
+	-v, --verbose		print out what would happen before doing it
+
+
+
+
+
+
+	-o OPTION=VALUE		set OPTION to VALUE as though it were in
+
+
+
+
+
+
+				/etc/network/interfaces
+
+
+
+
+
+
+	--no-mappings		don't run any mappings
+
+
+
+
+
+
+	--force			force de/configuration
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ftp
+
+
+
+
+
+
+ftp> quit
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping 192.168.0.2
+
+
+
+
+
+
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=1 ttl=64 time=0.217 ms
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=2 ttl=64 time=0.602 ms
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=3 ttl=64 time=0.260 ms
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=4 ttl=64 time=0.572 ms
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=5 ttl=64 time=0.179 ms
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=6 ttl=64 time=0.531 ms
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=7 ttl=64 time=0.519 ms
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=8 ttl=64 time=0.257 ms
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=9 ttl=64 time=0.575 ms
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=10 ttl=64 time=0.569 ms
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=11 ttl=64 time=0.591 ms
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=12 ttl=64 time=0.566 ms
+
+
+
+
+
+
+^Z
+
+
+
+
+
+
+[1]+  Stopped                 ping 192.168.0.2
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ls
+
+
+
+
+
+
+work.txt
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ car [K[Kt work.txt 
+
+
+
+
+
+
+Script started on Friday 31 January 2020 09:50:30 AM IST
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifconfig =a[K[K_[K-a
+
+
+
+
+
+
+
+eth0      Link encap:Ethernet  HWaddr 00:24:81:15:b0:6f  
+
+
+
+
+
+
+
+          inet addr:192.168.1.143  Bcast:192.168.1.255  Mask:255.255.254.0
+
+
+
+
+
+
+
+          inet6 addr: fe80::224:81ff:fe15:b06f/64 Scope:Link
+
+
+
+
+
+
+
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+
+
+
+
+
+
+          RX packets:61358 errors:0 dropped:0 overruns:0 frame:0
+
+
+
+
+
+
+
+          TX packets:1622 errors:0 dropped:0 overruns:0 carrier:0
+
+
+
+
+
+
+
+          collisions:0 txqueuelen:1000 
+
+
+
+
+
+
+
+          RX bytes:6398820 (6.3 MB)  TX bytes:218802 (218.8 KB)
+
+
+
+
+
+
+
+          Interrupt:19 Memory:f0500000-f0520000 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lo        Link encap:Local Loopback  
+
+
+
+
+
+
+
+          inet addr:127.0.0.1  Mask:255.0.0.0
+
+
+
+
+
+
+
+          inet6 addr: ::1/128 Scope:Host
+
+
+
+
+
+
+
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+
+
+
+
+
+
+
+          RX packets:68 errors:0 dropped:0 overruns:0 frame:0
+
+
+
+
+
+
+
+          TX packets:68 errors:0 dropped:0 overruns:0 carrier:0
+
+
+
+
+
+
+
+          collisions:0 txqueuelen:0 
+
+
+
+
+
+
+
+          RX bytes:4524 (4.5 KB)  TX bytes:4524 (4.5 KB)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifconfig eth0 192 
+.0.20
+
+
+
+
+
+
+
+SIOCSIFADDR: Operation not permitted
+
+
+
+
+
+
+
+SIOCSIFFLAGS: Operation not permitted
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ route
+
+
+
+
+
+
+
+Kernel IP routing table
+
+
+
+
+
+
+
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+
+
+
+
+
+
+
+link-local      *               255.255.0.0     U     1000   0        0 eth0
+
+
+
+
+
+
+
+192.168.0.0     *               255.255.254.0   U     1      0        0 eth0
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping
+
+
+
+
+
+
+
+Usage: ping [-LRUbdfnqrvVaAD] [-c count] [-i interval] [-w deadline]
+
+
+
+
+
+
+
+            [-p pattern] [-s packetsize] [-t ttl] [-I interface]
+
+
+
+
+
+
+
+            [-M pmtudisc-hint] [-m mark] [-S sndbuf]
+
+
+
+
+
+
+
+            [-T tstamp-options] [-Q tos] [hop1 ...] destination
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ iwconfig
+
+
+
+
+
+
+
+lo        no wireless extensions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+eth0      no wireless extensions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifup
+
+
+
+
+
+
+
+ifup: Use --help for help
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ --help
+
+
+
+
+
+
+
+--help: command not found
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifup//[K[K [K--[K[K --help
+
+
+
+
+
+
+
+Usage: ifup <options> <ifaces...>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Options:
+
+
+
+
+
+
+
+	-h, --help		this help
+
+
+
+
+
+
+
+	-V, --version		copyright and version information
+
+
+
+
+
+
+
+	-a, --all		de/configure all interfaces marked "auto"
+
+
+
+
+
+
+
+	--allow CLASS		ignore non-"allow-CLASS" interfaces
+
+
+
+
+
+
+
+	-i, --interfaces FILE	use FILE for interface definitions
+
+
+
+
+
+
+
+	-e, --exclude PATTERN	exclude interfaces from the list of
+
+
+
+
+
+
+
+				interfaces to operate on by a PATTERN
+
+
+
+
+
+
+
+	-n, --no-act		print out what would happen, but don't do it
+
+
+
+
+
+
+
+				(note that this option doesn't disable mappings)
+
+
+
+
+
+
+
+	-v, --verbose		print out what would happen before doing it
+
+
+
+
+
+
+
+	-o OPTION=VALUE		set OPTION to VALUE as though it were in
+
+
+
+
+
+
+
+				/etc/network/interfaces
+
+
+
+
+
+
+
+	--no-mappings		don't run any mappings
+
+
+
+
+
+
+
+	--force			force de/configuration
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ftp
+
+
+
+
+
+
+
+ftp> quit
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping 192.168.0.2
+
+
+
+
+
+
+
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=1 ttl=64 time=0.217 ms
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=2 ttl=64 time=0.602 ms
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=3 ttl=64 time=0.260 ms
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=4 ttl=64 time=0.572 ms
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=5 ttl=64 time=0.179 ms
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=6 ttl=64 time=0.531 ms
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=7 ttl=64 time=0.519 ms
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=8 ttl=64 time=0.257 ms
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=9 ttl=64 time=0.575 ms
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=10 ttl=64 time=0.569 ms
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=11 ttl=64 time=0.591 ms
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=12 ttl=64 time=0.566 ms
+
+
+
+
+
+
+
+^Z
+
+
+
+
+
+
+
+[1]+  Stopped                 ping 192.168.0.2
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ls
+
+
+
+
+
+
+
+work.txt
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ car [K[Kt work.txt 
+
+
+
+
+
+
+
+Script started on Friday 31 January 2020 09:50:30 AM IST
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifconfig =a[K[K_[K-a
+
+
+
+
+
+
+
+
+eth0      Link encap:Ethernet  HWaddr 00:24:81:15:b0:6f  
+
+
+
+
+
+
+
+
+          inet addr:192.168.1.143  Bcast:192.168.1.255  Mask:255.255.254.0
+
+
+
+
+
+
+
+
+          inet6 addr: fe80::224:81ff:fe15:b06f/64 Scope:Link
+
+
+
+
+
+
+
+
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+
+
+
+
+
+
+
+          RX packets:61358 errors:0 dropped:0 overruns:0 frame:0
+
+
+
+
+
+
+
+
+          TX packets:1622 errors:0 dropped:0 overruns:0 carrier:0
+
+
+
+
+
+
+
+
+          collisions:0 txqueuelen:1000 
+
+
+
+
+
+
+
+
+          RX bytes:6398820 (6.3 MB)  TX bytes:218802 (218.8 KB)
+
+
+
+
+
+
+
+
+          Interrupt:19 Memory:f0500000-f0520000 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lo        Link encap:Local Loopback  
+
+
+
+
+
+
+
+
+          inet addr:127.0.0.1  Mask:255.0.0.0
+
+
+
+
+
+
+
+
+          inet6 addr: ::1/128 Scope:Host
+
+
+
+
+
+
+
+
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+
+
+
+
+
+
+
+
+          RX packets:68 errors:0 dropped:0 overruns:0 frame:0
+
+
+
+
+
+
+
+
+          TX packets:68 errors:0 dropped:0 overruns:0 carrier:0
+
+
+
+
+
+
+
+
+          collisions:0 txqueuelen:0 
+
+
+
+
+
+
+
+
+          RX bytes:4524 (4.5 KB)  TX bytes:4524 (4.5 KB)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifconfig eth0 192 
+.0.20
+
+
+
+
+
+
+
+
+SIOCSIFADDR: Operation not permitted
+
+
+
+
+
+
+
+
+SIOCSIFFLAGS: Operation not permitted
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ route
+
+
+
+
+
+
+
+
+Kernel IP routing table
+
+
+
+
+
+
+
+
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+
+
+
+
+
+
+
+
+link-local      *               255.255.0.0     U     1000   0        0 eth0
+
+
+
+
+
+
+
+
+192.168.0.0     *               255.255.254.0   U     1      0        0 eth0
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping
+
+
+
+
+
+
+
+
+Usage: ping [-LRUbdfnqrvVaAD] [-c count] [-i interval] [-w deadline]
+
+
+
+
+
+
+
+
+            [-p pattern] [-s packetsize] [-t ttl] [-I interface]
+
+
+
+
+
+
+
+
+            [-M pmtudisc-hint] [-m mark] [-S sndbuf]
+
+
+
+
+
+
+
+
+            [-T tstamp-options] [-Q tos] [hop1 ...] destination
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ iwconfig
+
+
+
+
+
+
+
+
+lo        no wireless extensions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+eth0      no wireless extensions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifup
+
+
+
+
+
+
+
+
+ifup: Use --help for help
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ --help
+
+
+
+
+
+
+
+
+--help: command not found
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifup//[K[K [K--[K[K --help
+
+
+
+
+
+
+
+
+Usage: ifup <options> <ifaces...>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Options:
+
+
+
+
+
+
+
+
+	-h, --help		this help
+
+
+
+
+
+
+
+
+	-V, --version		copyright and version information
+
+
+
+
+
+
+
+
+	-a, --all		de/configure all interfaces marked "auto"
+
+
+
+
+
+
+
+
+	--allow CLASS		ignore non-"allow-CLASS" interfaces
+
+
+
+
+
+
+
+
+	-i, --interfaces FILE	use FILE for interface definitions
+
+
+
+
+
+
+
+
+	-e, --exclude PATTERN	exclude interfaces from the list of
+
+
+
+
+
+
+
+
+				interfaces to operate on by a PATTERN
+
+
+
+
+
+
+
+
+	-n, --no-act		print out what would happen, but don't do it
+
+
+
+
+
+
+
+
+				(note that this option doesn't disable mappings)
+
+
+
+
+
+
+
+
+	-v, --verbose		print out what would happen before doing it
+
+
+
+
+
+
+
+
+	-o OPTION=VALUE		set OPTION to VALUE as though it were in
+
+
+
+
+
+
+
+
+				/etc/network/interfaces
+
+
+
+
+
+
+
+
+	--no-mappings		don't run any mappings
+
+
+
+
+
+
+
+
+	--force			force de/configuration
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ftp
+
+
+
+
+
+
+
+
+ftp> quit
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping 192.168.0.2
+
+
+
+
+
+
+
+
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=1 ttl=64 time=0.217 ms
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=2 ttl=64 time=0.602 ms
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=3 ttl=64 time=0.260 ms
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=4 ttl=64 time=0.572 ms
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=5 ttl=64 time=0.179 ms
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=6 ttl=64 time=0.531 ms
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=7 ttl=64 time=0.519 ms
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=8 ttl=64 time=0.257 ms
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=9 ttl=64 time=0.575 ms
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=10 ttl=64 time=0.569 ms
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=11 ttl=64 time=0.591 ms
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=12 ttl=64 time=0.566 ms
+
+
+
+
+
+
+
+
+^Z
+
+
+
+
+
+
+
+
+[1]+  Stopped                 ping 192.168.0.2
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ls
+
+
+
+
+
+
+
+
+work.txt
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ car [K[Kt work.txt 
+
+
+
+
+
+
+
+
+Script started on Friday 31 January 2020 09:50:30 AM IST
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifconfig =a[K[K_[K-a
+
+
+
+
+
+
+
+
+
+eth0      Link encap:Ethernet  HWaddr 00:24:81:15:b0:6f  
+
+
+
+
+
+
+
+
+
+          inet addr:192.168.1.143  Bcast:192.168.1.255  Mask:255.255.254.0
+
+
+
+
+
+
+
+
+
+          inet6 addr: fe80::224:81ff:fe15:b06f/64 Scope:Link
+
+
+
+
+
+
+
+
+
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+
+
+
+
+
+
+
+
+          RX packets:61358 errors:0 dropped:0 overruns:0 frame:0
+
+
+
+
+
+
+
+
+
+          TX packets:1622 errors:0 dropped:0 overruns:0 carrier:0
+
+
+
+
+
+
+
+
+
+          collisions:0 txqueuelen:1000 
+
+
+
+
+
+
+
+
+
+          RX bytes:6398820 (6.3 MB)  TX bytes:218802 (218.8 KB)
+
+
+
+
+
+
+
+
+
+          Interrupt:19 Memory:f0500000-f0520000 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lo        Link encap:Local Loopback  
+
+
+
+
+
+
+
+
+
+          inet addr:127.0.0.1  Mask:255.0.0.0
+
+
+
+
+
+
+
+
+
+          inet6 addr: ::1/128 Scope:Host
+
+
+
+
+
+
+
+
+
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+
+
+
+
+
+
+
+
+
+          RX packets:68 errors:0 dropped:0 overruns:0 frame:0
+
+
+
+
+
+
+
+
+
+          TX packets:68 errors:0 dropped:0 overruns:0 carrier:0
+
+
+
+
+
+
+
+
+
+          collisions:0 txqueuelen:0 
+
+
+
+
+
+
+
+
+
+          RX bytes:4524 (4.5 KB)  TX bytes:4524 (4.5 KB)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifconfig eth0 192 
+.0.20
+
+
+
+
+
+
+
+
+
+SIOCSIFADDR: Operation not permitted
+
+
+
+
+
+
+
+
+
+SIOCSIFFLAGS: Operation not permitted
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ route
+
+
+
+
+
+
+
+
+
+Kernel IP routing table
+
+
+
+
+
+
+
+
+
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+
+
+
+
+
+
+
+
+
+link-local      *               255.255.0.0     U     1000   0        0 eth0
+
+
+
+
+
+
+
+
+
+192.168.0.0     *               255.255.254.0   U     1      0        0 eth0
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping
+
+
+
+
+
+
+
+
+
+Usage: ping [-LRUbdfnqrvVaAD] [-c count] [-i interval] [-w deadline]
+
+
+
+
+
+
+
+
+
+            [-p pattern] [-s packetsize] [-t ttl] [-I interface]
+
+
+
+
+
+
+
+
+
+            [-M pmtudisc-hint] [-m mark] [-S sndbuf]
+
+
+
+
+
+
+
+
+
+            [-T tstamp-options] [-Q tos] [hop1 ...] destination
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ iwconfig
+
+
+
+
+
+
+
+
+
+lo        no wireless extensions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+eth0      no wireless extensions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifup
+
+
+
+
+
+
+
+
+
+ifup: Use --help for help
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ --help
+
+
+
+
+
+
+
+
+
+--help: command not found
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifup//[K[K [K--[K[K --help
+
+
+
+
+
+
+
+
+
+Usage: ifup <options> <ifaces...>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Options:
+
+
+
+
+
+
+
+
+
+	-h, --help		this help
+
+
+
+
+
+
+
+
+
+	-V, --version		copyright and version information
+
+
+
+
+
+
+
+
+
+	-a, --all		de/configure all interfaces marked "auto"
+
+
+
+
+
+
+
+
+
+	--allow CLASS		ignore non-"allow-CLASS" interfaces
+
+
+
+
+
+
+
+
+
+	-i, --interfaces FILE	use FILE for interface definitions
+
+
+
+
+
+
+
+
+
+	-e, --exclude PATTERN	exclude interfaces from the list of
+
+
+
+
+
+
+
+
+
+				interfaces to operate on by a PATTERN
+
+
+
+
+
+
+
+
+
+	-n, --no-act		print out what would happen, but don't do it
+
+
+
+
+
+
+
+
+
+				(note that this option doesn't disable mappings)
+
+
+
+
+
+
+
+
+
+	-v, --verbose		print out what would happen before doing it
+
+
+
+
+
+
+
+
+
+	-o OPTION=VALUE		set OPTION to VALUE as though it were in
+
+
+
+
+
+
+
+
+
+				/etc/network/interfaces
+
+
+
+
+
+
+
+
+
+	--no-mappings		don't run any mappings
+
+
+
+
+
+
+
+
+
+	--force			force de/configuration
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ftp
+
+
+
+
+
+
+
+
+
+ftp> quit
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping 192.168.0.2
+
+
+
+
+
+
+
+
+
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=1 ttl=64 time=0.217 ms
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=2 ttl=64 time=0.602 ms
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=3 ttl=64 time=0.260 ms
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=4 ttl=64 time=0.572 ms
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=5 ttl=64 time=0.179 ms
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=6 ttl=64 time=0.531 ms
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=7 ttl=64 time=0.519 ms
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=8 ttl=64 time=0.257 ms
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=9 ttl=64 time=0.575 ms
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=10 ttl=64 time=0.569 ms
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=11 ttl=64 time=0.591 ms
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=12 ttl=64 time=0.566 ms
+
+
+
+
+
+
+
+
+
+^Z
+
+
+
+
+
+
+
+
+
+[1]+  Stopped                 ping 192.168.0.2
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ls
+
+
+
+
+
+
+
+
+
+work.txt
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ car [K[Kt work.txt 
+
+
+
+
+
+
+
+
+
+Script started on Friday 31 January 2020 09:50:30 AM IST
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifconfig =a[K[K_[K-a
+
+
+
+
+
+
+
+
+
+
+eth0      Link encap:Ethernet  HWaddr 00:24:81:15:b0:6f  
+
+
+
+
+
+
+
+
+
+
+          inet addr:192.168.1.143  Bcast:192.168.1.255  Mask:255.255.254.0
+
+
+
+
+
+
+
+
+
+
+          inet6 addr: fe80::224:81ff:fe15:b06f/64 Scope:Link
+
+
+
+
+
+
+
+
+
+
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+
+
+
+
+
+
+
+
+
+          RX packets:61358 errors:0 dropped:0 overruns:0 frame:0
+
+
+
+
+
+
+
+
+
+
+          TX packets:1622 errors:0 dropped:0 overruns:0 carrier:0
+
+
+
+
+
+
+
+
+
+
+          collisions:0 txqueuelen:1000 
+
+
+
+
+
+
+
+
+
+
+          RX bytes:6398820 (6.3 MB)  TX bytes:218802 (218.8 KB)
+
+
+
+
+
+
+
+
+
+
+          Interrupt:19 Memory:f0500000-f0520000 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lo        Link encap:Local Loopback  
+
+
+
+
+
+
+
+
+
+
+          inet addr:127.0.0.1  Mask:255.0.0.0
+
+
+
+
+
+
+
+
+
+
+          inet6 addr: ::1/128 Scope:Host
+
+
+
+
+
+
+
+
+
+
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+
+
+
+
+
+
+
+
+
+
+          RX packets:68 errors:0 dropped:0 overruns:0 frame:0
+
+
+
+
+
+
+
+
+
+
+          TX packets:68 errors:0 dropped:0 overruns:0 carrier:0
+
+
+
+
+
+
+
+
+
+
+          collisions:0 txqueuelen:0 
+
+
+
+
+
+
+
+
+
+
+          RX bytes:4524 (4.5 KB)  TX bytes:4524 (4.5 KB)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifconfig eth0 192 
+.0.20
+
+
+
+
+
+
+
+
+
+
+SIOCSIFADDR: Operation not permitted
+
+
+
+
+
+
+
+
+
+
+SIOCSIFFLAGS: Operation not permitted
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ route
+
+
+
+
+
+
+
+
+
+
+Kernel IP routing table
+
+
+
+
+
+
+
+
+
+
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+
+
+
+
+
+
+
+
+
+
+link-local      *               255.255.0.0     U     1000   0        0 eth0
+
+
+
+
+
+
+
+
+
+
+192.168.0.0     *               255.255.254.0   U     1      0        0 eth0
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping
+
+
+
+
+
+
+
+
+
+
+Usage: ping [-LRUbdfnqrvVaAD] [-c count] [-i interval] [-w deadline]
+
+
+
+
+
+
+
+
+
+
+            [-p pattern] [-s packetsize] [-t ttl] [-I interface]
+
+
+
+
+
+
+
+
+
+
+            [-M pmtudisc-hint] [-m mark] [-S sndbuf]
+
+
+
+
+
+
+
+
+
+
+            [-T tstamp-options] [-Q tos] [hop1 ...] destination
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ iwconfig
+
+
+
+
+
+
+
+
+
+
+lo        no wireless extensions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+eth0      no wireless extensions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifup
+
+
+
+
+
+
+
+
+
+
+ifup: Use --help for help
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ --help
+
+
+
+
+
+
+
+
+
+
+--help: command not found
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifup//[K[K [K--[K[K --help
+
+
+
+
+
+
+
+
+
+
+Usage: ifup <options> <ifaces...>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Options:
+
+
+
+
+
+
+
+
+
+
+	-h, --help		this help
+
+
+
+
+
+
+
+
+
+
+	-V, --version		copyright and version information
+
+
+
+
+
+
+
+
+
+
+	-a, --all		de/configure all interfaces marked "auto"
+
+
+
+
+
+
+
+
+
+
+	--allow CLASS		ignore non-"allow-CLASS" interfaces
+
+
+
+
+
+
+
+
+
+
+	-i, --interfaces FILE	use FILE for interface definitions
+
+
+
+
+
+
+
+
+
+
+	-e, --exclude PATTERN	exclude interfaces from the list of
+
+
+
+
+
+
+
+
+
+
+				interfaces to operate on by a PATTERN
+
+
+
+
+
+
+
+
+
+
+	-n, --no-act		print out what would happen, but don't do it
+
+
+
+
+
+
+
+
+
+
+				(note that this option doesn't disable mappings)
+
+
+
+
+
+
+
+
+
+
+	-v, --verbose		print out what would happen before doing it
+
+
+
+
+
+
+
+
+
+
+	-o OPTION=VALUE		set OPTION to VALUE as though it were in
+
+
+
+
+
+
+
+
+
+
+				/etc/network/interfaces
+
+
+
+
+
+
+
+
+
+
+	--no-mappings		don't run any mappings
+
+
+
+
+
+
+
+
+
+
+	--force			force de/configuration
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ftp
+
+
+
+
+
+
+
+
+
+
+ftp> quit
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping 192.168.0.2
+
+
+
+
+
+
+
+
+
+
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=1 ttl=64 time=0.217 ms
+
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=2 ttl=64 time=0.602 ms
+
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=3 ttl=64 time=0.260 ms
+
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=4 ttl=64 time=0.572 ms
+
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=5 ttl=64 time=0.179 ms
+
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=6 ttl=64 time=0.531 ms
+
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=7 ttl=64 time=0.519 ms
+
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=8 ttl=64 time=0.257 ms
+
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=9 ttl=64 time=0.575 ms
+
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=10 ttl=64 time=0.569 ms
+
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=11 ttl=64 time=0.591 ms
+
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=12 ttl=64 time=0.566 ms
+
+
+
+
+
+
+
+
+
+
+^Z
+
+
+
+
+
+
+
+
+
+
+[1]+  Stopped                 ping 192.168.0.2
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ls
+
+
+
+
+
+
+
+
+
+
+work.txt
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ car [K[Kt work.txt 
+
+
+
+
+
+
+
+
+
+
+Script started on Friday 31 January 2020 09:50:30 AM IST
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifconfig =a[K[K_[K-a
+
+
+
+
+
+
+
+
+
+
+
+eth0      Link encap:Ethernet  HWaddr 00:24:81:15:b0:6f  
+
+
+
+
+
+
+
+
+
+
+
+          inet addr:192.168.1.143  Bcast:192.168.1.255  Mask:255.255.254.0
+
+
+
+
+
+
+
+
+
+
+
+          inet6 addr: fe80::224:81ff:fe15:b06f/64 Scope:Link
+
+
+
+
+
+
+
+
+
+
+
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+
+
+
+
+
+
+
+
+
+
+          RX packets:61358 errors:0 dropped:0 overruns:0 frame:0
+
+
+
+
+
+
+
+
+
+
+
+          TX packets:1622 errors:0 dropped:0 overruns:0 carrier:0
+
+
+
+
+
+
+
+
+
+
+
+          collisions:0 txqueuelen:1000 
+
+
+
+
+
+
+
+
+
+
+
+          RX bytes:6398820 (6.3 MB)  TX bytes:218802 (218.8 KB)
+
+
+
+
+
+
+
+
+
+
+
+          Interrupt:19 Memory:f0500000-f0520000 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lo        Link encap:Local Loopback  
+
+
+
+
+
+
+
+
+
+
+
+          inet addr:127.0.0.1  Mask:255.0.0.0
+
+
+
+
+
+
+
+
+
+
+
+          inet6 addr: ::1/128 Scope:Host
+
+
+
+
+
+
+
+
+
+
+
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+
+
+
+
+
+
+
+
+
+
+
+          RX packets:68 errors:0 dropped:0 overruns:0 frame:0
+
+
+
+
+
+
+
+
+
+
+
+          TX packets:68 errors:0 dropped:0 overruns:0 carrier:0
+
+
+
+
+
+
+
+
+
+
+
+          collisions:0 txqueuelen:0 
+
+
+
+
+
+
+
+
+
+
+
+          RX bytes:4524 (4.5 KB)  TX bytes:4524 (4.5 KB)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifconfig eth0 192 
+.0.20
+
+
+
+
+
+
+
+
+
+
+
+SIOCSIFADDR: Operation not permitted
+
+
+
+
+
+
+
+
+
+
+
+SIOCSIFFLAGS: Operation not permitted
+
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ route
+
+
+
+
+
+
+
+
+
+
+
+Kernel IP routing table
+
+
+
+
+
+
+
+
+
+
+
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+
+
+
+
+
+
+
+
+
+
+
+link-local      *               255.255.0.0     U     1000   0        0 eth0
+
+
+
+
+
+
+
+
+
+
+
+192.168.0.0     *               255.255.254.0   U     1      0        0 eth0
+
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping
+
+
+
+
+
+
+
+
+
+
+
+Usage: ping [-LRUbdfnqrvVaAD] [-c count] [-i interval] [-w deadline]
+
+
+
+
+
+
+
+
+
+
+
+            [-p pattern] [-s packetsize] [-t ttl] [-I interface]
+
+
+
+
+
+
+
+
+
+
+
+            [-M pmtudisc-hint] [-m mark] [-S sndbuf]
+
+
+
+
+
+
+
+
+
+
+
+            [-T tstamp-options] [-Q tos] [hop1 ...] destination
+
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ iwconfig
+
+
+
+
+
+
+
+
+
+
+
+lo        no wireless extensions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+eth0      no wireless extensions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifup
+
+
+
+
+
+
+
+
+
+
+
+ifup: Use --help for help
+
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ --help
+
+
+
+
+
+
+
+
+
+
+
+--help: command not found
+
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifup//[K[K [K--[K[K --help
+
+
+
+
+
+
+
+
+
+
+
+Usage: ifup <options> <ifaces...>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Options:
+
+
+
+
+
+
+
+
+
+
+
+	-h, --help		this help
+
+
+
+
+
+
+
+
+
+
+
+	-V, --version		copyright and version information
+
+
+
+
+
+
+
+
+
+
+
+	-a, --all		de/configure all interfaces marked "auto"
+
+
+
+
+
+
+
+
+
+
+
+	--allow CLASS		ignore non-"allow-CLASS" interfaces
+
+
+
+
+
+
+
+
+
+
+
+	-i, --interfaces FILE	use FILE for interface definitions
+
+
+
+
+
+
+
+
+
+
+
+	-e, --exclude PATTERN	exclude interfaces from the list of
+
+
+
+
+
+
+
+
+
+
+
+				interfaces to operate on by a PATTERN
+
+
+
+
+
+
+
+
+
+
+
+	-n, --no-act		print out what would happen, but don't do it
+
+
+
+
+
+
+
+
+
+
+
+				(note that this option doesn't disable mappings)
+
+
+
+
+
+
+
+
+
+
+
+	-v, --verbose		print out what would happen before doing it
+
+
+
+
+
+
+
+
+
+
+
+	-o OPTION=VALUE		set OPTION to VALUE as though it were in
+
+
+
+
+
+
+
+
+
+
+
+				/etc/network/interfaces
+
+
+
+
+
+
+
+
+
+
+
+	--no-mappings		don't run any mappings
+
+
+
+
+
+
+
+
+
+
+
+	--force			force de/configuration
+
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ftp
+
+
+
+
+
+
+
+
+
+
+
+ftp> quit
+
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping 192.168.0.2
+
+
+
+
+
+
+
+
+
+
+
+PING 192.168.0.2 (192.168.0.2) 56(84) bytes of data.
+
+
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=1 ttl=64 time=0.217 ms
+
+
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=2 ttl=64 time=0.602 ms
+
+
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=3 ttl=64 time=0.260 ms
+
+
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=4 ttl=64 time=0.572 ms
+
+
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=5 ttl=64 time=0.179 ms
+
+
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=6 ttl=64 time=0.531 ms
+
+
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=7 ttl=64 time=0.519 ms
+
+
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=8 ttl=64 time=0.257 ms
+
+
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=9 ttl=64 time=0.575 ms
+
+
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=10 ttl=64 time=0.569 ms
+
+
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=11 ttl=64 time=0.591 ms
+
+
+
+
+
+
+
+
+
+
+
+64 bytes from 192.168.0.2: icmp_req=12 ttl=64 time=0.566 ms
+
+
+
+
+
+
+
+
+
+
+
+^Z
+
+
+
+
+
+
+
+
+
+
+
+[1]+  Stopped                 ping 192.168.0.2
+
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ls
+
+
+
+
+
+
+
+
+
+
+
+work.txt
+
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ car [K[Kt work.txt 
+
+
+
+
+
+
+
+
+
+
+
+Script started on Friday 31 January 2020 09:50:30 AM IST
+
+
+
+
+
+
+
+
+
+
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifconfig =a[K[K_[K-a
+
+
+
+
+
+
+
+
+
+
+
+
+eth0      Link encap:Ethernet  HWaddr 00:24:81:15:b0:6f  
+
+
+
+
+
+
+
+
+
+
+
+
+          inet addr:192.168.1.143  Bcast:192.168.1.255  Mask:255.255.254.0
+
+
+
+
+
+
+
+
+
+
+
+
+          inet6 addr: fe80::224:81ff:fe15:b06f/64 Scope:Link
+
+
+
+
+
+
+
+
+
+
+
+
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+
+
+
+
+
+
+
+
+
+
+
+
+          RX packets:61358 errors:0 dropped:0 overruns:0 frame:0
+
+
+
+
+
+
+
+
+
+
+
+
+          TX packets:1622 errors:0 dropped:0 overruns:0 carrier:0
+
+
+
+
+
+
+
+
+
+
+
+
+          collisions:0 txqueuelen:1000 
+
+
+
+
+
+
+
+
+
+
+
+
+          RX bytes:6398820 (6.3 MB)  TX bytes:218802 (218.8 KB)
+
+
+
+
+
+
+
+
+
+
+
+
+          Interrupt:19 Memory:f0500000-f0520000 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lo        Link encap:Local Loopback  
+
+
+
+
+
+
+
+
+
+
+
+
+          inet addr:127.0.0.1  Mask:255.0]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ gedit report.txt
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ echo "namw[Keserver  
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  
+1.1.1.1">> resolc.[K[Kv.conf
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ route-n
+route-n: command not found
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ route add default 
+ gw 10[K92.168.0.2
+SIOCADDRT: Operation not permitted
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ sftp cs18c32@192. 
+168.0.0[K30
+^Z
+[2]+  Stopped                 sftp cs18c32@192.168.0.30
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ sftp cs18c32@192.168.0.30
+ssh: connect to host 192.168.0.30 port 22: Connection timed out
+
+Couldn't read packet: Connection reset by peer
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ sftp cs18c32@192.168.0.30
+^[[A^C]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ sftp cs18c32@192.168.0.30route add default gw 192.168.0.2[7Psftp cs18c32@192.168.0.30[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+ftp: cs18c32@192.168.0.30: No address associated with hostname
+ftp> quit
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ftp cs18c32@192.168.0.30[1@s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+^Z
+[3]+  Stopped                 sftp cs18c32@192.168.0.30
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ sftp cs18c32@192.168.0.30
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ sftp cs18c32@192.1
+168.0.30
+[K[A]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ sftp cs18c32@192.168.0.30
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ sftp cs18c32@192.168.0.30
+^Z
+[4]+  Stopped                 sftp cs18c32@192.168.0.30
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ sssh[K[K[Ksh cs18cs31[K2@192.168.0.30
+^Z
+[5]+  Stopped                 ssh cs18cs32@192.168.0.30
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ssh cs18cs32@192.168.0.30ftp cs18c32@192.168.0.30[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+^C]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping 192.168.0.3
+PING 192.168.0.3 (192.168.0.3) 56(84) bytes of data.
+From 192.168.1.143 icmp_seq=1 Destination Host Unreachable
+From 192.168.1.143 icmp_seq=2 Destination Host Unreachable
+From 192.168.1.143 icmp_seq=3 Destination Host Unreachable
+From 192.168.1.143 icmp_seq=4 Destination Host Unreachable
+From 192.168.1.143 icmp_seq=5 Destination Host Unreachable
+From 192.168.1.143 icmp_seq=6 Destination Host Unreachable
+^Z
+[6]+  Stopped                 ping 192.168.0.3
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping 192.168.0.30
+PING 192.168.0.30 (192.168.0.30) 56(84) bytes of data.
+^[[A^[[B        ^Z
+[7]+  Stopped                 ping 192.168.0.30
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping 192.168.0.30[K[K02
+PING 192.168.0.02 (192.168.0.2) 56(84) bytes of data.
+64 bytes from 192.168.0.2: icmp_req=1 ttl=64 time=0.200 ms
+64 bytes from 192.168.0.2: icmp_req=2 ttl=64 time=0.264 ms
+64 bytes from 192.168.0.2: icmp_req=3 ttl=64 time=0.259 ms
+64 bytes from 192.168.0.2: icmp_req=4 ttl=64 time=0.453 ms
+64 bytes from 192.168.0.2: icmp_req=5 ttl=64 time=0.255 ms
+64 bytes from 192.168.0.2: icmp_req=6 ttl=64 time=0.260 ms
+64 bytes from 192.168.0.2: icmp_req=7 ttl=64 time=0.169 ms
+64 bytes from 192.168.0.2: icmp_req=8 ttl=64 time=0.205 ms
+64 bytes from 192.168.0.2: icmp_req=9 ttl=64 time=0.394 ms
+64 bytes from 192.168.0.2: icmp_req=10 ttl=64 time=0.203 ms
+64 bytes from 192.168.0.2: icmp_req=11 ttl=64 time=0.258 ms
+64 bytes from 192.168.0.2: icmp_req=12 ttl=64 time=0.257 ms
+64 bytes from 192.168.0.2: icmp_req=13 ttl=64 time=0.257 ms
+64 bytes from 192.168.0.2: icmp_req=14 ttl=64 time=0.203 ms
+64 bytes from 192.168.0.2: icmp_req=15 ttl=64 time=0.152 ms
+64 bytes from 192.168.0.2: icmp_req=16 ttl=64 time=0.256 ms
+64 bytes from 192.168.0.2: icmp_req=17 ttl=64 time=0.207 ms
+64 bytes from 192.168.0.2: icmp_req=18 ttl=64 time=0.211 ms
+64 bytes from 192.168.0.2: icmp_req=19 ttl=64 time=0.260 ms
+64 bytes from 192.168.0.2: icmp_req=20 ttl=64 time=0.209 ms
+^Z
+[8]+  Stopped                 ping 192.168.0.02
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping 192.168.0.0230[K002[Kping 192.168.0.0230[Ksftp cs18c32@192.168.0.30sh cs18cs32@192.168.0.30ftp cs18c32@192.168.0.30
+^Z
+[9]+  Stopped                 sftp cs18c32@192.168.0.30
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ sftp cs18c32@192.168.0.30[8Pping 192.168.0.0230
+PING 192.168.0.30 (192.168.0.30) 56(84) bytes of data.
+^Z
+[10]+  Stopped                 ping 192.168.0.30
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping 192.168.0.30
+PING 192.168.0.30 (192.168.0.30) 56(84) bytes of data.
+^Z
+[11]+  Stopped                 ping 192.168.0.30
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping 192.168.0.30
+PING 192.168.0.30 (192.168.0.30) 56(84) bytes of data.
+^[[A    ^Z
+[12]+  Stopped                 ping 192.168.0.30
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping 192.168.0.30
+PING 192.168.0.30 (192.168.0.30) 56(84) bytes of data.
+^[[A    ^Z
+[13]+  Stopped                 ping 192.168.0.30
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping 192.168.0.30sftp cs18c32@192.168.0.30
+^Z
+[14]+  Stopped                 sftp cs18c32@192.168.0.30
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ sftp cs18c32@192.168.0.30
+ssh: connect to host 192.168.0.30 port 22: No route to host
+
+Couldn't read packet: Connection reset by peer
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ sftp cs18c32@192.168.0.30
+ping 19       ce lear
+^Z
+[15]+  Stopped                 sftp cs18c32@192.168.0.30
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ clear
+[H[2J]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ sf[K[Kclearsftp cs18c32@192.168.0.30[8Pping 192.168.0.30sftp cs18c32@192.168.0.30[8Pping 192.168.0.0230
+PING 192.168.0.30 (192.168.0.30) 56(84) bytes of data.
+^Z
+[16]+  Stopped                 ping 192.168.0.30
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping 192.168.0.30
+PING 192.168.0.30 (192.168.0.30) 56(84) bytes of data.
+^Z
+[17]+  Stopped                 ping 192.168.0.30
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ kundan ano[K[K[K[K[K[K[K[K[K[Kping 192.168.0.30clear[Ksftp cs18c32@192.168.0.30clear[Kping 192.168.0.30
+PING 192.168.0.30 (192.168.0.30) 56(84) bytes of data.
+^Z
+[18]+  Stopped                 ping 192.168.0.30
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping 192.168.0.30 
+[A
+PING 192.168.0.30 (192.168.0.30) 56(84) bytes of data.
+z ^Z
+[19]+  Stopped                 ping 192.168.0.30
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping 192.168.0.30 
+[A
+PING 192.168.0.30 (192.168.0.30) 56(84) bytes of data.
+^Z
+[20]+  Stopped                 ping 192.168.0.30
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping 192.168.0.30 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csftp cs18c32@192.1
+168.0.30
+^Z
+[21]+  Stopped                 sftp cs18c32@192.168.0.30
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ CEC CS 18 C47
+CEC: command not found
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ R Aravind
+The program 'R' is currently not installed.  To run 'R' please ask your administrator to install the package 'r-base-core'
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ----------------- 
+---------------
+--------------------------------: command not found
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ #1: Networking ta 
+sks (t3)
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ----------------- 
+----------------
+---------------------------------: command not found
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ Command/Shell scr 
+ipt/Program name
+bash: Command/Shell: No such file or directory
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ----------------- 
+----------------
+---------------------------------: command not found
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ifconfig -a
+eth0      Link encap:Ethernet  HWaddr 00:24:81:15:b0:6f  
+          inet addr:192.168.1.143  Bcast:192.168.1.255  Mask:255.255.254.0
+          inet6 addr: fe80::224:81ff:fe15:b06f/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:287856 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:9096 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:28348538 (28.3 MB)  TX bytes:1216555 (1.2 MB)
+          Interrupt:19 Memory:f0500000-f0520000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:86 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:86 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:6196 (6.1 KB)  TX bytes:6196 (6.1 KB)
+
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 eth0
+192.168.0.0     0.0.0.0         255.255.254.0   U     1      0        0 eth0
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ route add default 
+ gw 192.168.0.2
+SIOCADDRT: Operation not permitted
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping 192.168.0.1
+PING 192.168.0.1 (192.168.0.1) 56(84) bytes of data.
+64 bytes from 192.168.0.1: icmp_req=1 ttl=64 time=10.0 ms
+64 bytes from 192.168.0.1: icmp_req=2 ttl=64 time=2.76 ms
+64 bytes from 192.168.0.1: icmp_req=3 ttl=64 time=2.75 ms
+64 bytes from 192.168.0.1: icmp_req=4 ttl=64 time=2.71 ms
+64 bytes from 192.168.0.1: icmp_req=5 ttl=64 time=2.73 ms
+64 bytes from 192.168.0.1: icmp_req=6 ttl=64 time=2.87 ms
+^Z
+[22]+  Stopped                 ping 192.168.0.1
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ping 192.168.0.1route add default 
+ gw 192.168.0.2[A
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ [C[C[C[C[C[C-n[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cifconfig -a------------------
+----------------[A
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ Command/Shell script/Program name[A
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ---------------------------------[A
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ Command/Shell script/Program name[A
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ ---------------------------------[A
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ [6Pifconfig -a
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Proute -nadd default 
+ gw 192.168.0.2[A
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ [1Pping 192.168.0.1
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kping 192.168.0.1route add default 
+ gw 192.168.0.2[A
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ [C[C[C[C[C[C-n[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[Ksftp cec18cs00[K[K[K[K[K[K[K[K[Kcs19[K8c0[K32@192. 
+168.0.30
+^Z
+[23]+  Stopped                 sftp cs18c32@192.168.0.30
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ sftp cs18c32@192.1
+168.0.30
+[K[A]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ sftp cs18c32@192.168.0.30
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ sftp cs18c32@192.168.0.30
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ sftp cs18c32@192.1
+168.0.30[A
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ [1Pping 192.168.0.1
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csftp cs18c32@192.1
+168.0.30
+^Z
+[24]+  Stopped                 sftp cs18c32@192.168.0.30
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ sftp cs18c32@192.1
+168.0.30
+[K[A]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ sftp cs18c32@192.168.0.30
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ sftp cs18c32@192.168.0.30
+
+^Z
+[25]+  Stopped                 sftp cs18c32@192.168.0.30
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ sftp cs18c32@192.168.0.30
+^Z
+[26]+  Stopped                 sftp cs18c32@192.168.0.30
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ sftp cs18c32@192.168.0.30
+^Z
+[27]+  Stopped                 sftp cs18c32@192.168.0.30
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ 
+[K]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ sftp cs18c32@192.1
+168.0.30[A
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ [1Pping 192.168.0.1
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csftp cs18c32@192.1
+168.0.30[A
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ [1Pping 192.168.0.1
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csftp cs18c32@192.1
+168.0.30
+^Z
+[28]+  Stopped                 sftp cs18c32@192.168.0.30
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ sftp cs18c32@192.1
+168.0.30[A
+]0;s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower: ~/s4c32/3101s4c1@lab2-HP-Compaq-dc7900-Convertible-Minitower:~/s4c32/3101$ [1Pping 192.168.0.1
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+PING 192.168.0.1 (192.168.0.1) 56(84) bytes of data.
+64 bytes from 192.168.0.1: icmp_req=1 ttl=64 time=2.71 ms
+64 bytes from 192.168.0.1
